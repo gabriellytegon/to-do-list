@@ -1,0 +1,120 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #E1E1E1; 
+}
+
+.conteiner{
+    width: 472px;
+    border-radius: 5px;
+    height: 100vh;
+}
+
+.title{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 25px 25px 0px 25px;
+    color: #24A19C;
+    font-size: 45px;
+}
+
+.input{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 43px 43px 43px;
+}
+
+.input input{
+    width: 244px;
+    height: 56px;
+    background: #FFFFFF;
+    border: 1px solid #24A19C;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 13px; 
+    font-size: 20px;   
+}
+
+.input input::placeholder{
+    color: rgba(36, 161, 156, 0.61);
+    font-size: 20px;
+}
+
+.input button{
+    width: 99px;
+    height: 56px;
+    background: #24A19C;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.input button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 45px;
+    display: flex;
+    justify-content: center;
+
+}
+
+ul li{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    min-height: 56px;
+    width: 382px;
+    list-style: none;
+    font-size: 20px;
+    padding: 1px;
+    justify-content: center;
+    padding: 13px 24px 13px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    transition: background-color ease 300ms;
+}
+.checked{
+    background: #24A19C;
+    color: #FFFFFF;
+    text-decoration-line: line-through;
+}
+
+.unchecked{
+    background-color: #FFFFFF;
+    color: #24A19C;
+}
+
+ul li p{
+    width: 80%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+.iconsInput{
+    display: flex;
+    gap: 10px;
+    height: 18px;
+}
+
+.buttons{
+    background-color: transparent;
+    color: black;
+    border: none;
+}
+
+.buttons:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
