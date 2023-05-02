@@ -15,7 +15,7 @@
 <br>
 
 <p align="center">
-  <img alt="projeto To Do List" src=".github/capa.jpg" width="100%">
+  <img alt="projeto To Do List" src="./toDoApp/.github/capa.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
